@@ -32,3 +32,9 @@ nav img {
 	position: absolute;
 	top: 0;
 }
+
+main {
+	margin: 10px 20px;
+	background-color: white;
+	height: 200px;
+}
