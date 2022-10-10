@@ -3,38 +3,94 @@ body {
 	margin: 0;
 }
 
-nav {
+main {
 	background-color: white;
+	padding: 20px;
+	min-height: 1000px; /* just for testing, remove later */
+
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+
+/* Navbar */
+nav {
+	background-color: #232323;
+	display: flex;
+	justify-content: space-around;
 	align-items: center;
 	column-gap: 25px;
 	height: 100px;
 }
 
-nav div{
+nav ul {
+	padding: 0;
+	width: 100%;
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
 	font-size: 25px;
 	font-family: Salsa;
 }
 
-nav div:hover {
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	border-bottom-color: blue;
+#navTxt {
+	color: white;
+	font-size: 25px;
+	font-family: Salsa;
 }
 
-nav img {
-	width: 100px;
+.navImg {
+	height: 100px;
 }
 
-#logo {
-	width: 100px;
-	position: absolute;
-	top: 0;
+#lastNav {
+	justify-content: flex-end;
+	padding-right: 20px;
 }
 
-main {
-	margin: 10px 20px;
-	background-color: white;
+
+/* Items in shop */
+.item {
+	background-color: #ffffcc;
+	height: 300px;
+	width: 250px;
+	border-style: ridge;
+	border-radius: 20%;
+}
+
+.nameCost {
+	padding: 0px 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.itemPic {
 	height: 200px;
+	width: 250px;
+}
+
+.itemText {
+	visibility: hidden;
+}
+
+div.item:hover img.itemPic {
+	height: 80px;
+}
+
+div.item:hover p.itemText {
+	visibility: visible;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
 }
