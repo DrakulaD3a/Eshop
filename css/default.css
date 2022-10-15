@@ -17,12 +17,9 @@ nav {
 	height: 100px;
 }
 
-nav ul {
-	padding: 0;
-	width: 100%;
-	list-style-type: none;
+#spacingDiv {
+	width: 1000px;
 	display: flex;
-	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -32,16 +29,11 @@ nav a {
 	color: white;
 	font-size: 25px;
 	font-family: Salsa;
-	font-weight: bold;
-}
-
-#navDiv {
-	width: 1000px;
+	font-weight: 600;
 }
 
 .navImg {
-	height: 100px;
-	scale: 50%;
+	height: 50px;
 }
 
 
