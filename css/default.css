@@ -1,0 +1,52 @@
+body {
+	background-color: grey;
+	margin: 0;
+}
+
+main {
+	background-color: white;
+}
+
+/* Navbar */
+nav {
+	background-color: #232323;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	column-gap: 25px;
+	height: 100px;
+}
+
+nav ul {
+	padding: 0;
+	width: 100%;
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	font-family: Salsa;
+	font-weight: bold;
+}
+
+#navDiv {
+	width: 1000px;
+}
+
+.navImg {
+	height: 100px;
+	scale: 50%;
+}
+
+
+@media only screen and (max-width: 1000px) {
+	#navDiv {
+		width: 100%;
+	}
+}

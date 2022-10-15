@@ -1,0 +1,41 @@
+main {
+	padding: 20px;
+	min-height: 1000px; /* just for testing, remove later */
+
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+
+/* Items in shop */
+.item {
+	background-color: #ffffcc;
+	height: 300px;
+	width: 250px;
+	border-style: ridge;
+	border-radius: 20%;
+}
+
+.nameCost {
+	padding: 0px 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.itemPic {
+	height: 200px;
+	width: 250px;
+}
+
+.itemText {
+	visibility: hidden;
+}
+
+div.item:hover img.itemPic {
+	height: 80px;
+}
+
+div.item:hover p.itemText {
+	visibility: visible;
+}
