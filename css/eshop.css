@@ -10,11 +10,10 @@ main {
 
 /* Items in shop */
 .item {
-	background-color: #ffffcc;
+	background-color: #ffb6ff;
 	height: 300px;
 	width: 250px;
 	border-style: ridge;
-	border-radius: 20%;
 }
 
 .nameCost {

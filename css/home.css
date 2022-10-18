@@ -58,8 +58,7 @@ p {
 }
 
 #spacingDiv2 {
-	margin-left: 400px;
-	max-width: 1120px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
