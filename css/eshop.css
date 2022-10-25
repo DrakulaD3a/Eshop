@@ -1,30 +1,41 @@
 main {
-	padding: 20px;
-	min-height: 1000px; /* just for testing, remove later */
+	padding: 2rem;
+	height: auto;
 
 	display: flex;
-	justify-content: space-between;
 	flex-wrap: wrap;
+
+	column-gap: 2rem;
+	row-gap: 2rem;
+}
+
+h3 {
+	font-size: 3rem;
+}
+
+p {
+	padding-left: 1rem;
+	font-size: 2rem;
 }
 
 
 /* Items in shop */
 .item {
 	background-color: #ffb6ff;
-	height: 300px;
-	width: 250px;
+	height: 30rem;
+	width: 25rem;
 	border-style: ridge;
 }
 
 .nameCost {
-	padding: 0px 10px;
+	padding: 0rem 1rem;
 	display: flex;
 	justify-content: space-between;
 }
 
 .itemPic {
-	height: 200px;
-	width: 250px;
+	height: 20rem;
+	width: 25rem;
 }
 
 .itemText {
@@ -32,9 +43,10 @@ main {
 }
 
 div.item:hover img.itemPic {
-	height: 80px;
+	height: 8rem;
 }
 
 div.item:hover p.itemText {
 	visibility: visible;
 }
+
