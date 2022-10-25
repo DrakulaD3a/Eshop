@@ -1,7 +1,7 @@
 #firstDiv {
 	background-color: white;
-	height: 80rem;
 	text-align: center;
+	font-size: 50px;
 }
 
 #firstDiv h2 {
@@ -13,13 +13,19 @@
 }
 
 #secondDiv {
+	background-image: url(../res/MainPicture.png);
+	background-size: 100%;
 	background-color: #cecece;
-	background-image: url("res/gemstones.png");
-	height: 50rem;
+	font-size: 50px;
 }
 
 #thirdDiv {
-	background-color: #FF2C2C;
-	height: 70rem;
+	background-color: white;
+	text-align: center;
+	font-size: 50px;
+}
+
+.popularProducts {
+	font-size: 35px;
 }
 
