@@ -1,31 +1,73 @@
 #firstDiv {
 	background-color: white;
 	text-align: center;
-	font-size: 50px;
+	font-size: 40px;
+	padding: 10% 20%;
 }
 
 #firstDiv h2 {
-	font-size: 4rem;
+	font-size: 40px;
 }
 
 #firstDiv p {
-	font-size: 3rem;
+	font-size: 30px;
+}
+
+#toAboutUs {
+	font-size: 20px;
+	font-style: italic;
 }
 
 #secondDiv {
 	background-image: url(../res/MainPicture.png);
 	background-size: 100%;
+	background-repeat: no-repeat;
 	background-color: #cecece;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: Salsa;
 	font-size: 50px;
+	text-align: center;
+	min-height: 80rem;
+	height: auto;
+	row-gap: 7rem;
+}
+
+#shopNowButt {
+	width: 28.5rem;
+	height: 12rem;
+	background-color: #FFCDFA;
+	border-width: 5px;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: white;
+	color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #thirdDiv {
 	background-color: white;
 	text-align: center;
-	font-size: 50px;
+	font-size: 30px;
+	display: grid;
 }
 
-.popularProducts {
-	font-size: 35px;
+.popularProduct {
+	font-size: 20px;
+}
+
+.popularProductImg {
+	height: 50rem;
+}
+
+#popularProducts {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
 }
 
