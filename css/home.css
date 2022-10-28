@@ -7,6 +7,8 @@
 
 #firstDiv h2 {
 	font-size: 40px;
+	font-family: Alegreya;
+	font-weight: 800;
 }
 
 #firstDiv p {
@@ -28,7 +30,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	font-family: Salsa;
+	font-family: Alegreya;
 	font-size: 50px;
 	text-align: center;
 	min-height: 80rem;
@@ -59,10 +61,15 @@
 
 .popularProduct {
 	font-size: 20px;
+	text-align: start;
 }
 
 .popularProductImg {
 	height: 50rem;
+}
+
+.priceTag {
+	color: blue;
 }
 
 #popularProducts {
