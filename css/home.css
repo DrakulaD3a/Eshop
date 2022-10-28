@@ -22,8 +22,6 @@
 
 #secondDiv {
 	background-image: url(../res/MainPicture.png);
-	background-size: 100%;
-	background-repeat: no-repeat;
 	background-color: #cecece;
 	color: white;
 	display: flex;
@@ -33,8 +31,7 @@
 	font-family: Alegreya;
 	font-size: 50px;
 	text-align: center;
-	min-height: 80rem;
-	height: auto;
+	height: 80rem;
 	row-gap: 7rem;
 }
 
@@ -78,3 +75,9 @@
 	justify-content: space-evenly;
 }
 
+@media only screen and (max-width: 1000px) {
+	#popularProducts {
+		flex-direction: column;
+		align-items: center;
+	}
+}

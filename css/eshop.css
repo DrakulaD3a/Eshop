@@ -1,15 +1,18 @@
 main {
-	padding: 2rem;
+	padding: 0;
 	height: auto;
+
+	background: linear-gradient(270deg, #FFCBFA 0%, #FFCDFA 40%, #FFFFFF 100%);
+}
+
+#mainDiv {
+	padding: 2rem;
 
 	display: flex;
 	flex-wrap: wrap;
 
 	column-gap: 2rem;
 	row-gap: 2rem;
-
-	background: linear-gradient(270deg, #FFCBFA 0%, #FFCDFA 40%, #FFFFFF 100%);
-	height: 1000px;
 }
 
 h3 {
@@ -21,19 +24,39 @@ p {
 	font-size: 2rem;
 }
 
+#topDiv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 15rem;
+	background-image: url("../res/EshopTitle.png");
+	background-size: 100%;
+}
+
+#topDiv h2 {
+	font-size: 35px;
+	font-weight: 600;
+	font-family: Alegreya;
+}
+
 
 /* Items in shop */
 .item {
 	background-color: #ffb6ff;
 	height: 30rem;
 	width: 25rem;
-	border-style: ridge;
+	border: ridge #ffb6ff;
 }
 
 .nameCost {
 	padding: 0rem 1rem;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
+}
+
+.price {
+	color: blue;
 }
 
 .itemPic {
@@ -42,11 +65,13 @@ p {
 }
 
 .itemText {
+	font-style: italic;
+	font-size: 16px;
 	visibility: hidden;
 }
 
 div.item:hover img.itemPic {
-	height: 8rem;
+	height: 30%;
 }
 
 div.item:hover p.itemText {
