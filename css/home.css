@@ -7,7 +7,7 @@
 
 #firstDiv h2 {
 	font-size: 40px;
-	font-family: Alegreya;
+	font-family: Bitter;
 	font-weight: 800;
 }
 
@@ -28,7 +28,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	font-family: Alegreya;
+	font-family: Bitter;
 	font-size: 50px;
 	text-align: center;
 	height: 80rem;
