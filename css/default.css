@@ -19,6 +19,7 @@ nav {
 	justify-content: space-around;
 	align-items: center;
 	height: 10rem;
+	position: sticky;
 }
 
 #spacingDiv {
