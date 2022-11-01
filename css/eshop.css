@@ -67,16 +67,16 @@ p {
 .itemText {
 	font-style: italic;
 	font-size: 16px;
-	visibility: hidden;
+	display: none;
 	color: white;
 	font-weight: 600;
 }
 
 div.item:hover img.itemPic {
-	height: 30%;
+	height: 0;
 }
 
 div.item:hover p.itemText {
-	visibility: visible;
+	display: inherit;
 }
 
